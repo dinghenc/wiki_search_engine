@@ -11,8 +11,8 @@ import (
 // WikiDocument wiki文档结构
 type WikiDocument struct {
 	Entries    []WikiEntry `json:"entries"`
-	ModifyTime int64       `json:"modify_time"`
 	CreateTime int64       `json:"create_time"`
+	ModifyTime int64       `json:"modify_time"`
 }
 
 // WikiEntry wiki词条
